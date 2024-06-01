@@ -1,5 +1,5 @@
-streamlit-lottie
 streamlit
+streamlit-lottie
 pandas
 datetime
 PyPDF2
