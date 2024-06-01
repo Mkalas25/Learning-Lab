@@ -33,7 +33,7 @@ def check_login(username, password):
 def show_login_page():
     lottie_coding3 = load_lottieurl("https://lottie.host/278504bd-a8e6-4aa1-9659-429473146744/FbR81V5ilh.json")
     st_lottie(lottie_coding3,height=250,width=700,key="intern")
-    st.image(r"C:\Users\sumit\Desktop\New folder\logo2.png")
+    st.image("logo2.png")
    
     st.title("Login")
     username = st.text_input("Username")
@@ -105,7 +105,7 @@ def chatbot():
     os.getenv("GOOGLE_API_KEY")
 
     def get_pdf_text():
-        path = r"C:\Users\sumit\Desktop\New folder\weld.pdf"
+        path = "weld.pdf"
         loader = PyPDFLoader(path)
         text = loader.load()
         text="\n".join([page.page_content for page in text])
